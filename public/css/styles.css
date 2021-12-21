@@ -1,0 +1,256 @@
+*{
+   
+margin: 0px;    
+padding: 0px;
+box-sizing: border-box;
+ }
+.logo-leyenda{
+    border: solid 1px green;
+}
+
+.icono-leyenda{
+     border: solid 1px red;
+     text-align: center;
+ }
+
+body{    
+    background-color:#ebebeb;
+    font-family: 'Roboto';
+    width: 100vw;
+    position: relative;
+}
+nav{
+    text-align: left;
+    background-color: #EAC926;
+    width: 100vw;
+    justify-content: left;
+}
+.logo{
+    width: 200px;
+}
+p{
+    font-size: 12px;
+}
+header{
+    background-color:#EAC926; 
+    width:100vw;
+    padding: 20px, 0px, 50px, 20px;
+    margin-bottom: 2em;
+} 
+h2{
+    font-size: 18px;
+    color: black;
+    margin-top: 1em;
+    margin-bottom: auto;
+}
+.leyenda{
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+main{
+    width: 90vw;
+    margin: auto;
+    margin-top: 1em;
+}
+.producto{
+    background-color: white;
+}
+.tarjeta-regalos-otros{
+    background-color: white;
+    width: 95vw;
+    padding: 10px, 50px, 20px;
+    justify-content: center;
+    margin: auto;
+    border: 10px solid #ebebeb;
+    position: absolute;
+}
+.imagen{
+        width:90vw;
+}
+.banner{
+    width:100vw;
+    margin-top: 1em;
+}
+.icono{
+    width: 60px;
+    height: 60px;
+    border-radius:50;
+    color: #03264C; 
+    border: solid; 
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15;
+    position: absolute;
+    margin-bottom: 10px;
+    top: -30;
+}
+.precio{
+    font-size:18px;
+    margin-bottom: 0%;
+    color: black;
+}
+.descuento{
+    font-size:16px;
+    margin-bottom: 0%;
+    color: #39b54a;
+}
+h3{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+h4{
+    font-size: 16px;
+    color: #39b54a;; 
+    margin-top: 0%;
+}
+h5{
+    font-size: 16px;
+    color: black; 
+    margin-top: 0%;
+}   
+
+h6{
+    font-size: 12px;
+    color: black;
+}
+.burguer-menu{
+font-size: 30px;
+color: white;
+background:#1259c3;
+border-radius: 15%;
+display: block;
+width:40px;
+margin: auto;
+text-align: center;
+}
+#signo {
+    text-align: center;
+}
+#titulo{
+    font-size: 24px;
+    text-align: center;
+}
+#parrafo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contenedor{
+    display: flex;
+    flex-wrap:wrap;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-top: solid 100px #ebebeb;
+    border: 15px;
+}
+.texto{
+    position: relative;
+}
+.camioncito{
+    display: block;
+    color:#39b54a;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 1.5px #39b54a;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 8px;
+    position: absolute;
+    right: 20px;
+    top: -20px;
+}
+#camioncito{
+    transition: transform 200ms;
+}   
+#camioncito:hover{
+    transform: rotate(-90deg);
+}        
+.precio{
+    display:flex;
+    writing-mode:horizontal-tb;
+    padding: 0px;
+}
+.oferta{
+    display:flex;
+    writing-mode: horizontal-tb;
+    padding:0px;
+}
+.tarjeta{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#1259c3;
+}
+.regalo{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#1259c3;
+    
+}
+.seguridad{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#1259c3;
+    }
+.piedepagina{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.formulario-registro{
+    width: 50vw;
+    margin: auto;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+.formulario-registro div{
+    padding:10px 0;
+    width: 100%;
+}
+.formulario-registro input{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-style: none;
+}
+
+
+
+
+
+@media (max-width: 360px) {
+    body h5{
+        display: none;
+    }
+    header nav {
+            display: none;  
+    }
+}
+
+@media (min-width: 361px){
+    body{ box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+    div#hamburguesa {
+        display: none;
+    }
+}
+@media (min-width: 769px) {
+    body{ box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+    div#hamburguesa {
+    display: none;
+}
+}
+
+
+
