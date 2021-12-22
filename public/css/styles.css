@@ -1,6 +1,5 @@
 *{
-   
-margin: 0px;    
+ margin: 0px;    
 padding: 0px;
 box-sizing: border-box;
  }
@@ -59,11 +58,14 @@ main{
 .tarjeta-regalos-otros{
     background-color: white;
     width: 95vw;
-    padding: 10px, 50px, 20px;
+    padding: 5px, 50px, 20px;
     justify-content: center;
     margin: auto;
+    margin-top: 1em;
     border: 10px solid #ebebeb;
     position: absolute;
+    display: flex;
+    flex-wrap: wrap;
 }
 .imagen{
         width:90vw;
@@ -187,23 +189,25 @@ text-align: center;
     text-align: center;
     margin-bottom: 10px;
     color:#1259c3;
+    float: left;
 }
 .regalo{
     font-size: 2em;
     text-align: center;
     margin-bottom: 10px;
     color:#1259c3;
-    
+    float: left; 
 }
 .seguridad{
     font-size: 2em;
     text-align: center;
     margin-bottom: 10px;
     color:#1259c3;
+    float: left;
     }
 .piedepagina{
     font-size: 2em;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .formulario-registro{
@@ -223,11 +227,6 @@ text-align: center;
     padding: 5px;
     border-style: none;
 }
-
-
-
-
-
 @media (max-width: 360px) {
     body h5{
         display: none;
@@ -236,7 +235,6 @@ text-align: center;
             display: none;  
     }
 }
-
 @media (min-width: 361px){
     body{ box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
