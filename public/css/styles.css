@@ -1,5 +1,5 @@
 *{
- margin: 0px;    
+margin: 0px;    
 padding: 0px;
 box-sizing: border-box;
  }
@@ -30,6 +30,7 @@ nav{
 p{
     font-size: 12px;
 }
+
 header{
     background-color:#EAC926; 
     width:100vw;
@@ -226,6 +227,29 @@ text-align: center;
     background-color: #ffffff;
     padding: 5px;
     border-style: none;
+}
+.enviar{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    width: 40px;
+    margin: auto;
+    transition: 3000ms;
+}
+.enviar:hover{
+    text-align: center;
+    font-size: 30px;
+    width: 40px;
+    margin: auto;
+    background-color: #0022AA;
+}
+.enviar-borrar div{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-style: none; 
+
 }
 @media (max-width: 360px) {
     body h5{
